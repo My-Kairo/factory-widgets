@@ -60,3 +60,17 @@ function colorAdd(){
     colour.classList.remove("danger");
     colour.classList.add(settInsta.getLevels());
 }
+
+if (gettotalItems() >= 20){
+    Level().classList.add("warning")
+}
+else if (gettotalItems() <= 20){
+    Level().classList.remove("warning")
+}
+
+if (gettotalItems() >= 30){
+    Level().classList.add("danger")
+}
+else if (gettotalItems() <= 30){
+    Level().classList.remove("danger")
+}

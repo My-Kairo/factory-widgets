@@ -29,6 +29,19 @@ function calculateBill(){
         if(gettotalItems() >= 20){
             return "warning"
         }
+    //      if (gettotalItems >= 20){
+    //     billTotalElement.classList.add("warning")
+    // }
+    // else if (gettotalItems <= 20){
+    //     billTotalElement.classList.remove("warning")
+    // }
+    
+    // if (gettotalItems >= 30){
+    //     billTotalElement.classList.add("danger")
+    // }
+    // else if (gettotalItems <= 30){
+    //     billTotalElement.classList.remove("danger")
+    // }
     
     }
     return{
